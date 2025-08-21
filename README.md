@@ -1,6 +1,6 @@
 ## NAME: SOUNDARYA J
 ## REG NO: 212223220108
-# Led-control-using-Arduino
+# Exp-1 Led-control-using-Arduino
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
