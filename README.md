@@ -92,6 +92,8 @@ void loop() {
 ## OUTPUT
 ## Switch on
 <img width="707" height="752" alt="Screenshot 2025-08-21 085746" src="https://github.com/user-attachments/assets/d955cfcd-0a8d-42f7-8bbb-8e8233b7f2af" />
+
+
 ## Switch off
  <img width="704" height="744" alt="Screenshot 2025-08-21 085809" src="https://github.com/user-attachments/assets/aa8938ec-fbe7-4b47-ae3d-cf8296df2154" />
 
