@@ -1,3 +1,5 @@
+## NAME: SOUNDARYA J
+## REG NO: 212223220108
 # Led-control-using-Arduino
 
 ## AIM
@@ -59,8 +61,41 @@ Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
 
+<img width="702" height="731" alt="image" src="https://github.com/user-attachments/assets/8af80afa-e85a-470e-ba8b-f54ed77ff477" />
+
+
+
 ## PROGRAM
+```
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(6,OUTPUT);
+  pinMode(2,INPUT);
+}
+
+void loop() {
+  int status=digitalRead(2);
+  if(status==HIGH)
+  {
+    digitalWrite(6,HIGH);
+    delay(1000);
+    digitalWrite(6,LOW);
+    delay(1000);
+  }
+  else
+  digitalWrite(6,LOW);
+}
+```
+<img width="1920" height="1080" alt="Screenshot 2025-08-21 090101" src="https://github.com/user-attachments/assets/779b86f2-00c4-46fb-816e-c159245bfbe2" />
+
 
 ## OUTPUT
+## Switch on
+<img width="707" height="752" alt="Screenshot 2025-08-21 085746" src="https://github.com/user-attachments/assets/d955cfcd-0a8d-42f7-8bbb-8e8233b7f2af" />
+ ## Switch off
+ <img width="704" height="744" alt="Screenshot 2025-08-21 085809" src="https://github.com/user-attachments/assets/aa8938ec-fbe7-4b47-ae3d-cf8296df2154" />
+
+
 
 ## RESULT
+
